@@ -1,14 +1,12 @@
-/* Variáveis de cor e tipografia */
 :root {
-  --bg: #53a048;
-  --text: #000000;
+  --bg: #0b0f14;
+  --text: #e6eaf2;
   --brand: #0ea5e9;
-  --header: #365f1b;
+  --header: #121822;
   --focus: #facc15;
   --font: 'Arial', sans-serif;
 }
 
-/* Reset básico */
 * {
   box-sizing: border-box;
 }
@@ -21,7 +19,6 @@ body {
   line-height: 1.5;
 }
 
-/* Link de pular conteúdo */
 .skip-link {
   position: absolute;
   top: -40px;
@@ -36,7 +33,6 @@ body {
   top: 0;
 }
 
-/* Cabeçalho e navegação */
 .site-header {
   background: var(--header);
   padding: 1rem;
@@ -64,7 +60,6 @@ body {
   outline: none;
 }
 
-/* Conteúdo principal */
 main {
   display: grid;
   gap: 2rem;
@@ -100,7 +95,6 @@ button:focus {
   outline: 2px solid var(--focus);
 }
 
-/* Rodapé */
 .site-footer {
   background: var(--header);
   padding: 1rem;
@@ -108,7 +102,6 @@ button:focus {
   font-size: 0.9rem;
 }
 
-/* Responsividade */
 @media (min-width: 600px) {
   main {
     grid-template-columns: 2fr 1fr;
