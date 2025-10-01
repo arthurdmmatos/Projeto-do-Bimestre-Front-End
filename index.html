@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GDFNET — Autenticação</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Link de acessibilidade -->
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Cabeçalho -->
+  <header class="site-header">
+    <h1>GDFNET</h1>
+    <nav aria-label="Menu principal">
+      <ul class="menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main id="conteudo">
+    <section class="auth">
+      <h2>Acesso ao Portal</h2>
+      <form>
+        <label for="cpf">CPF</label>
+        <input id="cpf" name="cpf" type="text" placeholder="Somente números" required>
+
+        <label for="senha">Senha</label>
+        <input id="senha" name="senha" type="password" required>
+
+        <button type="submit">Entrar</button>
+      </form>
+    </section>
+
+    <aside class="info">
+      <h3>Informações úteis</h3>
+      <p>Este é o portal oficial do Governo do Distrito Federal. Use seu CPF e senha para acessar os serviços.</p>
+    </aside>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <p>© 2025 GDFNET — Governo do Distrito Federal</p>
+  </footer>
+</body>
+</html>
